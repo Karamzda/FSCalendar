@@ -172,7 +172,7 @@ typedef NS_ENUM(NSUInteger, FSCalendarOrientation) {
     _preferredHeaderHeight  = FSCalendarAutomaticDimension;
     _preferredWeekdayHeight = FSCalendarAutomaticDimension;
     _preferredRowHeight     = FSCalendarAutomaticDimension;
-    _padding = 0.f
+    _padding = 0.f;
     _scrollDirection = FSCalendarScrollDirectionHorizontal;
     _scope = FSCalendarScopeMonth;
     _selectedDates = [NSMutableArray arrayWithCapacity:1];
